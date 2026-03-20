@@ -1,41 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>plein 1890</title>
-    <link rel="stylesheet" href="./cursessen.css">
+    <title>Plein 1890</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="glass nav">
-        <button id="hamburger" onclick="toggleMenu()">☰</button>
-
-        <div class="nav-links">
-            <a id="Home" href="../index.html">Home</a>
-            <a id="Contact">Contact</a>
-            <a id="Evenemnten">Evenemnten</a>
-            <a id="Online-gallerij">Online gallerij</a>
-            <a id="Cursussen" href="./cursessen.html">Cursussen</a>
+    <div class="top">
+        <div>
+            <h1>PLEIN 1890</h1>
+            <h3>Kunstwerkplaats & Galerie</h3>
+        </div>
+        <div>
+            <h3>Scroll naar beneden! <i class="fa-solid fa-chevron-down"></i></h3>
         </div>
     </div>
+
+    <nav class="glass nav">
+        <button id="hamburger" class="glass btn" onclick="toggleMenu()">☰</button>
+        <div class="nav-links">
+            <a id="Home" href="../index.html">Home</a>
+            <a id="Contact" href="./contact.html">Contact</a>
+            <a id="Agenda" href="./agenda.html">Agenda</a>
+            <a id="Online-gallerij">Online gallerij</a>
+            <a id="Cursussen" href="./cursussen.html">Cursussen</a>
+        </div>
+    </nav>
+
     <div class="glass card">
-
         <h1>Online galerie</h1>
-
         <div class="gallerij-grid">
             <a href="https://plein1890.nl/online-galerie/nggallery/album/expositie-stil-even" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-afgebladderde-kruik-klein.jpg"
-                    alt="Stilleven met kruik en appels">
+                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-afgebladderde-kruik-klein.jpg" alt="Stilleven met kruik en appels">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Piet den Hertog</span>
                     <span class="gallerij-vak">Stilleven met kruik en appels — Olieverf op paneel</span>
                 </div>
             </a>
             <a href="https://plein1890.nl/online-galerie/nggallery/album/expositie-stil-even" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-olijve-14-24-mm-lens.jpg"
-                    alt="Stilleven met olijven">
+                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-olijve-14-24-mm-lens.jpg" alt="Stilleven met olijven">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Piet den Hertog</span>
                     <span class="gallerij-vak">Stilleven met olijven — Olieverf op paneel</span>
@@ -56,13 +61,6 @@
                 </div>
             </a>
             <a href="https://plein1890.nl/online-galerie/nggallery/album/andries-hoekstra" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/andries-hoekstra/P1100517.jpg" alt="Below the Ship">
-                <div class="gallerij-overlay">
-                    <span class="gallerij-naam">Andries Hoekstra</span>
-                    <span class="gallerij-vak">Below the Ship — Houtsnede</span>
-                </div>
-            </a>
-            <a href="https://plein1890.nl/online-galerie/nggallery/album/andries-hoekstra" class="gallerij-item">
                 <img src="https://plein1890.nl/wp-content/gallery/andries-hoekstra/P1100521.jpg" alt="Rust">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Andries Hoekstra</span>
@@ -71,19 +69,13 @@
             </a>
         </div>
     </div>
+
     <div class="glass card">
         <h1>Contact</h1>
-        <h3>
-            Wij komen graag met u in contact:
-        </h3>
-        <h3>
-            <span class="bold">Plein 1890 </span> <br>
-            Wijk 1 - 77 <br>
-            8321 EN URK <br>
-            <a href="info@plein1890.nl" class="email">info@plein1890.nl</a>
-        </h3>
+        <h3>Wij komen graag met u in contact:</h3>
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;" href="./Andere pagina's/Contact.html">Contact pagina</a>
     </div>
+
     <script src="./script.js"></script>
 </body>
-
 </html>

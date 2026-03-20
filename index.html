@@ -1,91 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>plein 1890</title>
+    <title>Plein 1890</title>
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
-
 <body>
     <div class="top">
         <div>
-            <h1>PLEIN 1890</h1>
-            <h3>Kunstwerkplaats & Galerie</h3>
+            <h1 style="color: red">[DEMO] PLEIN 1890</h1>
+            <a class="btn" style="color: white; margin: 1rem; background-color: rgba(0,155,255,0.9);" href="https://plein1890.nl/">Voor de echte pagina klik hier!</a>
         </div>
         <div>
-            <h3>Scroll naar beneden!</h3>
+            <h3 style="color: red;"><i class="fa-solid fa-chevron-left"></i> Bezoek de echte pagina</h3>
         </div>
     </div>
-    <div class="glass nav">
-        <button id="hamburger" onclick="toggleMenu()">☰</button>
 
+    <nav class="glass nav">
+        <button id="hamburger" class="glass btn" onclick="toggleMenu()">☰</button>
         <div class="nav-links">
             <a id="Home">Home</a>
-            <a id="Contact">Contact</a>
-            <a id="Evenemnten">Evenemnten</a>
+            <a id="Contact" href="./Andere pagina's/contact.html">Contact</a>
+            <a id="Evenemnten" href="./Andere pagina's/agenda.html">Agenda</a>
             <a id="Online-gallerij" href="./Andere pagina's/galerie.html">Online gallerij</a>
-            <a id="Cursussen" href="./Andere pagina's/cursessen.html">Cursussen</a>
+            <a id="Cursussen" href="./Andere pagina's/cursussen.html">Cursussen</a>
         </div>
-    </div>
+    </nav>
+
     <div class="glass card">
         <h1>Home</h1>
         <p>
             <span class="bold">Plein 1890</span>
-            Plein 1890 is een jonge Galerie en Kunstwerkplaats, gevestigd in de oude smederij aan de haven van
+            is een jonge Galerie en Kunstwerkplaats, gevestigd in de oude smederij aan de haven van
             Urk. <br> Het werk dat wordt tentoongesteld in de Galerie bestaat veelal uit druk, etsen, houtsnedes en
             papierknipkunst. <br> De missie van de Galerie is voor iedereen toegankelijk zijn, jong en oud.
         </p>
+    </div>
 
-        <hr>
-
-        <div>
-            <p>
-                Hier vindt u onder andere het werk van:
-            </p>
-            <ul>
-                <li><span class="naam">Henk Kapitein</span><span class="vak">Knipkunst</span></li>
-                <li><span class="naam">Stieneke Oeverbeek</span><span class="vak">Mixed media</span></li>
-                <li><span class="naam">Okke Weerstand</span><span class="vak">Brons</span></li>
-                <li><span class="naam">Geert Weerstand</span><span class="vak">Glaskunst</span></li>
-                <li><span class="naam">Salam Kadhim</span><span class="vak">Schilderkunst</span></li>
-                <li><span class="naam">Andries Hoekstra</span><span class="vak">Druktechnieken</span></li>
-                <li><span class="naam">Ronald Baarda</span><span class="vak">Schilderen, tekenen, etsen</span></li>
-                <li><span class="naam">Piet den Hertog</span><span class="vak">Fijnschilder</span></li>
-                <li><span class="naam">Tineke de Raat</span><span class="vak">Schilderkunst</span></li>
-                <li><span class="naam">Pedro Rappé</span><span class="vak">Fotografie</span></li>
-                <li><span class="naam">Susan Schoemaker</span><span class="vak">Brons- en schilderkunst</span></li>
-                <li><span class="naam">Simon Gerssen</span><span class="vak">Mixed media</span></li>
-                <li><span class="naam">Collin de Bruin</span><span class="vak">Mixed media</span></li>
-                <li><span class="naam">Kim Pasterkamp</span><span class="vak">Inkttekeningen</span></li>
-                <li><span class="naam">Jennie Koffeman</span><span class="vak">Olieverf</span></li>
-                <li><span class="naam">Meike Brandsma</span><span class="vak">Illustraties</span></li>
-                <li><span class="naam">Jenne Scheffer</span><span class="vak">Sieraden</span></li>
-                <li><span class="naam">Anneke van Urk</span><span class="vak">Sieraden</span></li>
-                <li><span class="naam">Lydia Brouwer – Woort</span><span class="vak">Videokunst</span></li>
-                <li><span class="naam">Jessy Ronner</span><span class="vak">Illustraties</span></li>
-                <li><span class="naam">Klaas Johannes Romkes</span><span class="vak">Aquarel</span></li>
-                <li><span class="naam">Emily-Lara Kabos</span><span class="vak">Videokunst</span></li>
-            </ul>
-        </div>
-
-        <hr>
-
+    <div class="glass card">
         <h1>Online galerie</h1>
-
         <div class="gallerij-grid">
             <a href="https://plein1890.nl/online-galerie/nggallery/album/expositie-stil-even" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-afgebladderde-kruik-klein.jpg"
-                    alt="Stilleven met kruik en appels">
+                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-afgebladderde-kruik-klein.jpg" alt="Stilleven met kruik en appels">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Piet den Hertog</span>
                     <span class="gallerij-vak">Stilleven met kruik en appels — Olieverf op paneel</span>
                 </div>
             </a>
             <a href="https://plein1890.nl/online-galerie/nggallery/album/expositie-stil-even" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-olijve-14-24-mm-lens.jpg"
-                    alt="Stilleven met olijven">
+                <img src="https://plein1890.nl/wp-content/gallery/expositie-stil-even/Stilleven-met-olijve-14-24-mm-lens.jpg" alt="Stilleven met olijven">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Piet den Hertog</span>
                     <span class="gallerij-vak">Stilleven met olijven — Olieverf op paneel</span>
@@ -106,13 +71,6 @@
                 </div>
             </a>
             <a href="https://plein1890.nl/online-galerie/nggallery/album/andries-hoekstra" class="gallerij-item">
-                <img src="https://plein1890.nl/wp-content/gallery/andries-hoekstra/P1100517.jpg" alt="Below the Ship">
-                <div class="gallerij-overlay">
-                    <span class="gallerij-naam">Andries Hoekstra</span>
-                    <span class="gallerij-vak">Below the Ship — Houtsnede</span>
-                </div>
-            </a>
-            <a href="https://plein1890.nl/online-galerie/nggallery/album/andries-hoekstra" class="gallerij-item">
                 <img src="https://plein1890.nl/wp-content/gallery/andries-hoekstra/P1100521.jpg" alt="Rust">
                 <div class="gallerij-overlay">
                     <span class="gallerij-naam">Andries Hoekstra</span>
@@ -120,20 +78,95 @@
                 </div>
             </a>
         </div>
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;" href="./Andere pagina's/galerie.html">Bekijk meer kunst</a>
     </div>
+
+    <div class="glass card">
+        <h1>Cursussen</h1>
+        <a style="position: absolute; right: 2rem;">10 cursussen beschikbaar</a>
+        <div class="cursus-grid">
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Kinderatelier-1024x1024.png" alt="Kinderatelier">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Kinderatelier</span>
+                    <span class="cursus-detail">Kinderen 7–11 jaar · 10 lessen · Vrijdag 15:00–17:00</span>
+                    <span class="cursus-prijs">€ 82,50 incl. materialen</span>
+                    <a class="glass btn" style="background-color: rgba(0,255,155,1); color: black; align-self: flex-end;" href="./Andere pagina's/cursussen.html">Meld je aan</a>
+                </div>
+            </div>
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Jongerenatelier-1-1024x1024.png" alt="Jongerenatelier">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Jongerenatelier — Jentiezz</span>
+                    <span class="cursus-detail">Jongeren 12–15 jaar · 8 lessen · Vrijdag 17:30–19:00</span>
+                    <span class="cursus-prijs">€ 90,- incl. materialen</span>
+                    <a class="glass btn" style="background-color: rgba(0,255,155,1); color: black; align-self: flex-end;" href="./Andere pagina's/cursussen.html">Meld je aan</a>
+                </div>
+            </div>
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/basis-TS-1024x1024.png" alt="Basiscursus Tekenen & Schilderen">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Basiscursus Tekenen & Schilderen</span>
+                    <span class="cursus-detail">Volwassenen 18+ · 10 lessen · Dinsdag 19:30–21:30</span>
+                    <span class="cursus-prijs">€ 165,- incl. materialen</span>
+                    <a class="glass btn" style="background-color: rgba(0,255,155,1); color: black; align-self: flex-end;" href="./Andere pagina's/cursussen.html">Meld je aan</a>
+                </div>
+            </div>
+        </div>
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;" href="./Andere pagina's/cursussen.html">Lees meer</a>
+    </div>
+
+    <div class="glass card">
+        <h1>Nieuws brief</h1>
+        <a style="position: absolute; right: 2rem;">Welke tekst moet hier</a>
+        <div class="cursus-grid">
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Kinderatelier-1024x1024.png" alt="Kinderatelier">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Kinderatelier</span>
+                    <span class="cursus-detail">Kinderen 7–11 jaar · 10 lessen · Vrijdag 15:00–17:00</span>
+                    <span class="cursus-prijs">€ 82,50 incl. materialen</span>
+                </div>
+            </div>
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Jongerenatelier-1-1024x1024.png" alt="Jongerenatelier">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Jongerenatelier — Jentiezz</span>
+                    <span class="cursus-detail">Jongeren 12–15 jaar · 8 lessen · Vrijdag 17:30–19:00</span>
+                    <span class="cursus-prijs">€ 90,- incl. materialen</span>
+                </div>
+            </div>
+            <div class="glass cursus-item">
+                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/basis-TS-1024x1024.png" alt="Basiscursus Tekenen & Schilderen">
+                <div class="cursus-info">
+                    <span class="cursus-naam">Basiscursus Tekenen & Schilderen</span>
+                    <span class="cursus-detail">Volwassenen 18+ · 10 lessen · Dinsdag 19:30–21:30</span>
+                    <span class="cursus-prijs">€ 165,- incl. materialen</span>
+                </div>
+            </div>
+        </div>
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;" href="./Andere pagina's/cursussen.html">Lees meer</a>
+    </div>
+
     <div class="glass card">
         <h1>Contact</h1>
-        <h3>
-            Wij komen graag met u in contact:
-        </h3>
-        <h3>
-            <span class="bold">Plein 1890 </span> <br>
-            Wijk 1 - 77 <br>
-            8321 EN URK <br>
-            <a href="info@plein1890.nl" class="email">info@plein1890.nl</a>
-        </h3>
+        <h3>Wij komen graag met u in contact:</h3>
+
+        <p>Wijk 1 - 77 <br>
+        8321 EN URK</p>
+        
+        <p>
+            Woensdag 10:00 tot 12:00 <br>
+            donderdag en vrijdag 10:00 tot 12:00 en 13:45 17:00 <br>
+            zaterdag van 11:00 tot 16:00
+        </p>
+        <!-- adres
+        openingstijd
+        insta facebook linked in -->
+
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;" href="./Andere pagina's/Contact.html">Contact pagina</a>
     </div>
+
     <script src="./script.js"></script>
 </body>
-
 </html>
