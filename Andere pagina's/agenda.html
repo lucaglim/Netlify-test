@@ -9,54 +9,124 @@
 </head>
 
 <body>
+    <div class="top">
+        <div>
+            <h1>PLEIN 1890</h1>
+            <h3>Kunstwerkplaats & Galerie</h3>
+        </div>
+        <div>
+            <h3>Scroll naar beneden! <i class="fa-solid fa-chevron-down"></i></h3>
+        </div>
+    </div>
     <div class="glass nav">
         <button id="hamburger" onclick="toggleMenu()">☰</button>
 
         <div class="nav-links">
             <a id="Home" href="../index.html">Home</a>
-            <a id="Contact">Contact</a>
-            <a id="Agenda">Agenda</a>
+            <a id="Contact" href="./contact.html">Contact</a>
+            <a id="Agenda" class="bold" href="./agenda.html">Agenda</a>
             <a id="Online-gallerij" href="./galerie.html">Online gallerij</a>
             <a id="Cursussen" href="./cursussen.html">Cursussen</a>
         </div>
     </div>
+
     <div class="glass card">
+        <h1>Agenda</h1>
 
-        <h1>Online galerie</h1>
-
-        <div class="grid">
-            <div class="glass grid-item">
-                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Kinderatelier-1024x1024.png"
-                    alt="Kinderatelier">
-                <div class="cursus-info">
-                    <span class="cursus-naam">Kinderatelier</span>
-                    <span class="cursus-detail">Kinderen 7–11 jaar <br> 10 lessen <br> Vrijdag 15:00–17:00</span>
-                    <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black; align-self: flex-end;"
-                        href="./Andere pagina's/cursussen.html">Lees meer</a>
-                </div>
-            </div>
-            <div class="glass cursus-item">
-                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/Jongerenatelier-1-1024x1024.png"
-                    alt="Jongerenatelier">
-                <div class="cursus-info">
-                    <span class="cursus-naam">Jongerenatelier — Jentiezz</span>
-                    <span class="cursus-detail">Jongeren 12–15 jaar <br> 8 lessen <br> Vrijdag 17:30–19:00</span>
-                    <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black; align-self: flex-end;"
-                        href="./Andere pagina's/cursussen.html">Lees meer</a>
-                </div>
-            </div>
-            <div class="glass cursus-item">
-                <img src="https://www.plein1890.nl/wp-content/uploads/2024/01/basis-TS-1024x1024.png"
-                    alt="Basiscursus Tekenen & Schilderen">
-                <div class="cursus-info">
-                    <span class="cursus-naam">Basiscursus Tekenen & Schilderen</span>
-                    <span class="cursus-detail">Volwassenen 18+ · 10 lessen · Dinsdag 19:30–21:30</span>
-                    <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black; align-self: flex-end;"
-                        href="./Andere pagina's/cursussen.html">Lees meer</a>
-                </div>
-            </div>
+        <div class="kal-header-rij">
+            <span class="kal-maand-titel">maart 2026</span>
         </div>
+
+        <div class="kal-grid">
+            <!-- Dag headers -->
+            <div class="kal-dag-header">Ma</div>
+            <div class="kal-dag-header">Di</div>
+            <div class="kal-dag-header">Wo</div>
+            <div class="kal-dag-header">Do</div>
+            <div class="kal-dag-header">Vr</div>
+            <div class="kal-dag-header">Za</div>
+            <div class="kal-dag-header">Zo</div>
+
+            <!-- Week 1 — februari -->
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">24</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">25</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">26</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">27</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">28</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">1</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">2</span></div>
+
+            <!-- Week 2 -->
+            <div class="kal-cel"><span class="kal-datum-nr">3</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Basiscursus T&S<span class="kal-event-tijd">19:30</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">4</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">5</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">6</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">7</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Kinderatelier<span class="kal-event-tijd">15:00</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">8</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">9</span></div>
+
+            <!-- Week 3 -->
+            <div class="kal-cel"><span class="kal-datum-nr">10</span><a class="kal-event groen"
+                    href="./Andere pagina's/agenda.html">Jongerenatelier<span class="kal-event-tijd">17:30</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">11</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">12</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">13</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">14</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Kinderatelier<span class="kal-event-tijd">15:00</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">15</span><a class="kal-event groen"
+                    href="./Andere pagina's/agenda.html">Open Galerie dag<span class="kal-event-tijd">11:00</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">16</span></div>
+
+            <!-- Week 4 -->
+            <div class="kal-cel"><span class="kal-datum-nr">17</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Basiscursus T&S<span class="kal-event-tijd">19:30</span></a><a
+                    class="kal-event groen" href="./Andere pagina's/agenda.html">Jongerenatelier<span
+                        class="kal-event-tijd">17:30</span></a></div>
+            <div class="kal-cel"><span class="kal-datum-nr">18</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">19</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">20</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">21</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Kinderatelier<span class="kal-event-tijd">15:00</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">22</span></div>
+            <div class="kal-cel vandaag"><span class="kal-datum-nr">23</span></div>
+
+            <!-- Week 5 -->
+            <div class="kal-cel"><span class="kal-datum-nr">24</span><a class="kal-event groen"
+                    href="./Andere pagina's/agenda.html">Jongerenatelier<span class="kal-event-tijd">17:30</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">25</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">26</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">27</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">28</span><a class="kal-event blauw"
+                    href="./Andere pagina's/agenda.html">Kinderatelier<span class="kal-event-tijd">15:00</span></a>
+            </div>
+            <div class="kal-cel"><span class="kal-datum-nr">29</span></div>
+            <div class="kal-cel"><span class="kal-datum-nr">30</span></div>
+
+            <!-- Week 6 — april -->
+            <div class="kal-cel"><span class="kal-datum-nr">31</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">1</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">2</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">3</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">4</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">5</span></div>
+            <div class="kal-cel andere-maand"><span class="kal-datum-nr">6</span></div>
+        </div>
+
+        <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black; align-self: flex-end;"
+            href="./Andere pagina's/agenda.html">
+            Volledige agenda <i class="fa-solid fa-chevron-right"></i>
+        </a>
     </div>
+
     <div class="glass card">
         <h1>Contact</h1>
         <h3>
@@ -67,6 +137,8 @@
             Wijk 1 - 77 <br>
             8321 EN URK <br>
             <a href="info@plein1890.nl" class="email">info@plein1890.nl</a>
+            <a class="glass btn" style="background-color: rgba(0,155,255,1); color: black;"
+                href="./Andere pagina's/Contact.html">Contact pagina</a>
         </h3>
     </div>
     <script src="./script.js"></script>

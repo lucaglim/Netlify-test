@@ -6,15 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>plein 1890</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
+    <div class="top">
+        <div>
+            <h1>PLEIN 1890</h1>
+            <h3>Kunstwerkplaats & Galerie</h3>
+        </div>
+        <div>
+            <h3>Scroll naar beneden! <i class="fa-solid fa-chevron-down"></i></h3>
+        </div>
+    </div>
     <div class="glass nav">
         <button id="hamburger" onclick="toggleMenu()">☰</button>
 
         <div class="nav-links">
             <a id="Home" href="../index.html">Home</a>
-            <a id="Contact">Contact</a>
+            <a id="Contact" class="bold" href="./contact.html" >Contact</a>
             <a id="Agenda" href="./agenda.html">Agenda</a>
             <a id="Online-gallerij" href="./galerie.html">Online gallerij</a>
             <a id="Cursussen" href="./cursussen.html">Cursussen</a>
@@ -22,15 +32,90 @@
     </div>
     <div class="glass card">
         <h1>Contact</h1>
-        <h3>
-            Wij komen graag met u in contact:
-        </h3>
+        <h2 style="margin-top: 2rem;">
+            Wij komen graag met u in contact
+        </h2>
         <h3>
             <span class="bold">Plein 1890 </span> <br>
             Wijk 1 - 77 <br>
             8321 EN URK <br>
-            <a href="info@plein1890.nl" class="email">info@plein1890.nl</a>
+            <br>
+            Telefoonnummer: 06-14424284 <br>
+            Email: <a href="mailto:info@plein1890.nl">info@plein1890.nl</a><br>
+
         </h3>
+
+        <h2 style="margin-bottom: 0rem; margin-top: 2rem;">
+            Openingstijden
+        </h2>
+        <h3 style="margin-bottom: 0rem; margin-top: 1rem;">*Gesloten tussen 13:00 - 14:00 uur</h3>
+        <div style="display: flex; flex-direction: row;">
+            <h3 style="margin-right: 1rem;">
+                Maandag:<br>
+                Dinsdag:<br>
+                Woensdag:<br>
+                Donderdag:<br>
+                Vrijdag:<br>
+                Zaterdag:<br>
+                Zondag:<br>
+            </h3>
+            <h3>
+                Gesloten<br>
+                Gesloten<br>
+                10:00-14:00 uur<br>
+                10:00-17:00 uur<br>
+                10:00-17:00 uur<br>
+                10:00-17:00 uur<br>
+                Gesloten
+            </h3>
+        </div>
+
+
+        <h2>
+            Contactformulier
+        </h2>
+        <h3>Naam</h3>
+        <div class="contact_naam" style="display: flex; flex-direction: row;">
+            <div>
+                <input style="width: 10rem; height: 2rem; margin-right: 2rem;" id="voornaam" type="text"
+                    style="margin-right: 3rem;"><br>
+                <label for="voornaam">Voornaam</label>
+            </div>
+            <div>
+                <input style="width: 10rem; height: 2rem;" id="achternaam" type="text"><br>
+                <label for="achternaam">Achternaam</label>
+            </div>
+        </div>
+
+        <h3>E-Mail</h3>
+        <div class="contact_e-mail">
+            <input style="width: 22.5rem; height: 2rem;" type=email>
+        </div>
+
+        <h3>Reactie of bericht</h3>
+        <div class="contact_bericht">
+            <textarea style="width: 22.5rem; height: 5rem;" id="contact_tekstvak"></textarea>
+        </div>
+
+        <button class="btn"
+            style="background-color: rgba(0, 155, 255, 1); margin-top: 1rem; margin-bottom: 1rem;">Verstuur</button>
+
+
+        <div class="socials">
+            <a href="https://www.instagram.com/plein_1890/" target="_blank"
+                style="text-decoration: none; color: black; font-size: 3rem; padding-right: 1rem;">
+                <i class="fa-brands fa-instagram"></i></a>
+
+            <a href="https://www.linkedin.com/in/galerie-en-kunstwerkplaats-22073a276/?originalSubdomain=nl"
+                target="_blank" style="text-decoration: none; color: black; font-size: 3rem; padding-right: 1rem;">
+                <i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="" target="_blank"
+                style="text-decoration: none; color: black; font-size: 3rem; padding-right: 1rem;">
+                <i class="fa-brands fa-facebook"></i></a>
+
+
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
